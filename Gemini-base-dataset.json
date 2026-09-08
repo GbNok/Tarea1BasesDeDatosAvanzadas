@@ -1,0 +1,442 @@
+[
+  {
+    "Nombre": "Kenji Nakamura",
+    "Nacionalidad": "Japón",
+    "FechaNacimiento": "1998-05-15",
+    "Edad": 28,
+    "Patrimonio": 150000,
+    "Idiomas": ["Japonés", "Inglés"],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Maestro de las Sombras",
+        "Produccion": "League of Legends",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "CantidadApariciones": 120,
+        "Generos": ["MOBA", "Acción", "Fantasía"]
+      },
+      {
+        "NombrePersonaje": "Yasuo",
+        "Produccion": "League of Legends",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "CantidadApariciones": 95,
+        "Generos": ["MOBA", "Acción"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Sofía Reyes",
+    "Nacionalidad": "Chile",
+    "FechaNacimiento": "1968-11-02",
+    "Edad": 55,
+    "Patrimonio": 850000,
+    "Idiomas": ["Español", "Inglés"],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Humberto Peñaloza",
+        "Produccion": "El obsceno pájaro de la noche",
+        "TipoProduccion": "profesional",
+        "Rol": "secundario",
+        "CantidadApariciones": 39,
+        "Generos": ["Surrealismo", "Drama"]
+      },
+      {
+        "NombrePersonaje": "Inés",
+        "Produccion": "El obsceno pájaro de la noche",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "CantidadApariciones": 39,
+        "Generos": ["Surrealismo", "Misterio"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Liam Gallagher",
+    "Nacionalidad": "Reino Unido",
+    "FechaNacimiento": "1999-02-20",
+    "Edad": 27,
+    "Patrimonio": 320000,
+    "Idiomas": ["Inglés"],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Shrike",
+        "Produccion": "Cloud Adventures",
+        "TipoProduccion": "independiente",
+        "Rol": "principal",
+        "CantidadApariciones": 15,
+        "Generos": ["Ciencia Ficción", "Tecnología"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Valeria Castro",
+    "Nacionalidad": "España",
+    "FechaNacimiento": "1972-04-10",
+    "Edad": 52,
+    "Patrimonio": 2100000,
+    "Idiomas": ["Español", "Catalán", "Inglés"],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Gouraud",
+        "Produccion": "Render Wars",
+        "TipoProduccion": "profesional",
+        "Rol": "extra",
+        "CantidadApariciones": 5,
+        "Generos": ["Animación 3D", "Educativo"]
+      },
+      {
+        "NombrePersonaje": "Phong",
+        "Produccion": "Render Wars",
+        "TipoProduccion": "profesional",
+        "Rol": "secundario",
+        "CantidadApariciones": 10,
+        "Generos": ["Animación 3D", "Ficción"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Yuki Tanaka",
+    "Nacionalidad": "Japón",
+    "FechaNacimiento": "1954-08-14",
+    "Edad": 71,
+    "Patrimonio": 5400000,
+    "Idiomas": ["Japonés"],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Masayoshi",
+        "Produccion": "The Rainbow Goblins",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "CantidadApariciones": 42,
+        "Generos": ["Musical", "Fantasía"]
+      },
+      {
+        "NombrePersonaje": "Casiopea",
+        "Produccion": "Jazz in Tokyo",
+        "TipoProduccion": "profesional",
+        "Rol": "secundario",
+        "CantidadApariciones": 15,
+        "Generos": ["Musical", "Documental"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Camila Osorio",
+    "Nacionalidad": "Colombia",
+    "FechaNacimiento": "2001-09-30",
+    "Edad": 24,
+    "Patrimonio": 90000,
+    "Idiomas": ["Español", "Inglés"],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Ahri",
+        "Produccion": "League of Legends",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "CantidadApariciones": 200,
+        "Generos": ["MOBA", "Magia"]
+      }
+    ]
+  },
+  {
+    "Nombre": "James Smith",
+    "Nacionalidad": "Estados Unidos",
+    "FechaNacimiento": "1980-12-05",
+    "Edad": 43,
+    "Patrimonio": 1150000,
+    "Idiomas": ["Inglés", "Español"],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Menshiki",
+        "Produccion": "Killing Commendatore",
+        "TipoProduccion": "independiente",
+        "Rol": "secundario",
+        "CantidadApariciones": 12,
+        "Generos": ["Misterio", "Surrealismo"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Andrés Silva",
+    "Nacionalidad": "Chile",
+    "FechaNacimiento": "1997-03-22",
+    "Edad": 29,
+    "Patrimonio": 180000,
+    "Idiomas": ["Español"],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Iati",
+        "Produccion": "Tenaya Climbers",
+        "TipoProduccion": "independiente",
+        "Rol": "principal",
+        "CantidadApariciones": 8,
+        "Generos": ["Deportes", "Aventura"]
+      },
+      {
+        "NombrePersonaje": "Solution Comp",
+        "Produccion": "La Sportiva Climbers",
+        "TipoProduccion": "independiente",
+        "Rol": "secundario",
+        "CantidadApariciones": 4,
+        "Generos": ["Deportes", "Documental"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Elena Rossi",
+    "Nacionalidad": "Italia",
+    "FechaNacimiento": "1960-07-18",
+    "Edad": 63,
+    "Patrimonio": 3100000,
+    "Idiomas": ["Italiano", "Inglés", "Español"],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Casiopea",
+        "Produccion": "Jazz in Tokyo",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "CantidadApariciones": 25,
+        "Generos": ["Musical", "Drama"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Carlos Mendoza",
+    "Nacionalidad": "México",
+    "FechaNacimiento": "1988-10-10",
+    "Edad": 35,
+    "Patrimonio": 450000,
+    "Idiomas": ["Español", "Inglés"],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Phong",
+        "Produccion": "Render Wars",
+        "TipoProduccion": "profesional",
+        "Rol": "secundario",
+        "CantidadApariciones": 14,
+        "Generos": ["Animación 3D", "Ciencia Ficción"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Mikaela Johansson",
+    "Nacionalidad": "Suecia",
+    "FechaNacimiento": "2000-01-11",
+    "Edad": 26,
+    "Patrimonio": 210000,
+    "Idiomas": ["Sueco", "Inglés"],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Vi",
+        "Produccion": "Arcane",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "CantidadApariciones": 9,
+        "Generos": ["Acción", "Animación"]
+      },
+      {
+        "NombrePersonaje": "Jinx",
+        "Produccion": "Arcane",
+        "TipoProduccion": "profesional",
+        "Rol": "secundario",
+        "CantidadApariciones": 9,
+        "Generos": ["Acción", "Animación", "Drama"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Haruto Suzuki",
+    "Nacionalidad": "Japón",
+    "FechaNacimiento": "1965-06-25",
+    "Edad": 58,
+    "Patrimonio": 4200000,
+    "Idiomas": ["Japonés", "Inglés"],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Walkman",
+        "Produccion": "Analog Dreams",
+        "TipoProduccion": "independiente",
+        "Rol": "extra",
+        "CantidadApariciones": 3,
+        "Generos": ["Documental", "Tecnología"]
+      },
+      {
+        "NombrePersonaje": "Cassette",
+        "Produccion": "Analog Dreams",
+        "TipoProduccion": "independiente",
+        "Rol": "secundario",
+        "CantidadApariciones": 7,
+        "Generos": ["Documental", "Música"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Lucía Morales",
+    "Nacionalidad": "Argentina",
+    "FechaNacimiento": "1995-11-30",
+    "Edad": 28,
+    "Patrimonio": 125000,
+    "Idiomas": ["Español", "Italiano"],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Jinx",
+        "Produccion": "League of Legends",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "CantidadApariciones": 150,
+        "Generos": ["MOBA", "Acción"]
+      }
+    ]
+  },
+  {
+    "Nombre": "David Brown",
+    "Nacionalidad": "Reino Unido",
+    "FechaNacimiento": "1950-02-14",
+    "Edad": 74,
+    "Patrimonio": 8000000,
+    "Idiomas": ["Inglés", "Francés"],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Comendador",
+        "Produccion": "Killing Commendatore",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "CantidadApariciones": 1,
+        "Generos": ["Ficción", "Misterio"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Javier Torres",
+    "Nacionalidad": "México",
+    "FechaNacimiento": "1992-08-08",
+    "Edad": 31,
+    "Patrimonio": 275000,
+    "Idiomas": ["Español"],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Solution Comp",
+        "Produccion": "La Sportiva Climbers",
+        "TipoProduccion": "independiente",
+        "Rol": "secundario",
+        "CantidadApariciones": 10,
+        "Generos": ["Deportes", "Documental"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Anaís Delacroix",
+    "Nacionalidad": "Francia",
+    "FechaNacimiento": "2002-05-19",
+    "Edad": 22,
+    "Patrimonio": 65000,
+    "Idiomas": ["Francés", "Inglés"],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Kernel",
+        "Produccion": "CUDA Warriors",
+        "TipoProduccion": "independiente",
+        "Rol": "principal",
+        "CantidadApariciones": 64,
+        "Generos": ["Ciencia Ficción", "Acción"]
+      },
+      {
+        "NombrePersonaje": "Thread",
+        "Produccion": "CUDA Warriors",
+        "TipoProduccion": "independiente",
+        "Rol": "secundario",
+        "CantidadApariciones": 128,
+        "Generos": ["Ciencia Ficción", "Aventura"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Roberto Gómez",
+    "Nacionalidad": "Chile",
+    "FechaNacimiento": "1975-01-28",
+    "Edad": 49,
+    "Patrimonio": 980000,
+    "Idiomas": ["Español", "Inglés"],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Tronadura",
+        "Produccion": "Minería Simulator",
+        "TipoProduccion": "profesional",
+        "Rol": "secundario",
+        "CantidadApariciones": 20,
+        "Generos": ["Simulación", "Educativo"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Samantha Lee",
+    "Nacionalidad": "Estados Unidos",
+    "FechaNacimiento": "1990-12-12",
+    "Edad": 33,
+    "Patrimonio": 670000,
+    "Idiomas": ["Inglés", "Coreano"],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Wow",
+        "Produccion": "Analog Dreams",
+        "TipoProduccion": "independiente",
+        "Rol": "secundario",
+        "CantidadApariciones": 5,
+        "Generos": ["Documental", "Misterio"]
+      },
+      {
+        "NombrePersonaje": "Flutter",
+        "Produccion": "Analog Dreams",
+        "TipoProduccion": "independiente",
+        "Rol": "extra",
+        "CantidadApariciones": 2,
+        "Generos": ["Documental", "Suspenso"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Felipe Vargas",
+    "Nacionalidad": "Colombia",
+    "FechaNacimiento": "1958-03-03",
+    "Edad": 66,
+    "Patrimonio": 1450000,
+    "Idiomas": ["Español", "Portugués"],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Don Jerónimo",
+        "Produccion": "El obsceno pájaro de la noche",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "CantidadApariciones": 39,
+        "Generos": ["Surrealismo", "Drama"]
+      },
+      {
+        "NombrePersonaje": "Mudito",
+        "Produccion": "El obsceno pájaro de la noche",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "CantidadApariciones": 39,
+        "Generos": ["Surrealismo", "Psicológico"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Isabella Costa",
+    "Nacionalidad": "Brasil",
+    "FechaNacimiento": "1996-09-14",
+    "Edad": 27,
+    "Patrimonio": 290000,
+    "Idiomas": ["Portugués", "Inglés", "Español"],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Lux",
+        "Produccion": "League of Legends",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "CantidadApariciones": 85,
+        "Generos": ["MOBA", "Fantasía", "Acción"]
+      }
+    ]
+  }
+]

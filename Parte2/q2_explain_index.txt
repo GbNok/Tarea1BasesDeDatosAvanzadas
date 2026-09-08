@@ -1,0 +1,227 @@
+{
+  explainVersion: '1',
+  queryPlanner: {
+    namespace: 'Actors.Voice-actors',
+    parsedQuery: {
+      '$and': [
+        {
+          Idiomas: {
+            '$eq': 'Inglés'
+          }
+        },
+        {
+          Nacionalidad: {
+            '$eq': 'Reino Unido'
+          }
+        }
+      ]
+    },
+    indexFilterSet: false,
+    queryHash: 'AA8AA893',
+    planCacheShapeHash: 'AA8AA893',
+    planCacheKey: '4F44A5F1',
+    optimizationTimeMillis: 0,
+    maxIndexedOrSolutionsReached: false,
+    maxIndexedAndSolutionsReached: false,
+    maxScansToExplodeReached: false,
+    prunedSimilarIndexes: false,
+    winningPlan: {
+      isCached: false,
+      stage: 'PROJECTION_SIMPLE',
+      transformBy: {
+        _id: 0,
+        Nombre: 1,
+        Idiomas: 1,
+        Nacionalidad: 1
+      },
+      inputStage: {
+        stage: 'SORT',
+        sortPattern: {
+          Nombre: 1
+        },
+        memLimit: 104857600,
+        limitAmount: 10,
+        type: 'simple',
+        inputStage: {
+          stage: 'FETCH',
+          filter: {
+            Idiomas: {
+              '$eq': 'Inglés'
+            }
+          },
+          inputStage: {
+            stage: 'IXSCAN',
+            keyPattern: {
+              Nacionalidad: 1
+            },
+            indexName: 'Nacionalidad_1',
+            isMultiKey: false,
+            multiKeyPaths: {
+              Nacionalidad: []
+            },
+            isUnique: false,
+            isSparse: false,
+            isPartial: false,
+            indexVersion: 2,
+            direction: 'forward',
+            indexBounds: {
+              Nacionalidad: [
+                '["Reino Unido", "Reino Unido"]'
+              ]
+            }
+          }
+        }
+      }
+    },
+    rejectedPlans: []
+  },
+  executionStats: {
+    executionSuccess: true,
+    nReturned: 2,
+    executionTimeMillis: 4,
+    totalKeysExamined: 2,
+    totalDocsExamined: 2,
+    executionStages: {
+      isCached: false,
+      stage: 'PROJECTION_SIMPLE',
+      nReturned: 2,
+      executionTimeMillisEstimate: 0,
+      works: 6,
+      advanced: 2,
+      needTime: 3,
+      needYield: 0,
+      saveState: 0,
+      restoreState: 0,
+      isEOF: 1,
+      transformBy: {
+        _id: 0,
+        Nombre: 1,
+        Idiomas: 1,
+        Nacionalidad: 1
+      },
+      inputStage: {
+        stage: 'SORT',
+        nReturned: 2,
+        executionTimeMillisEstimate: 0,
+        works: 6,
+        advanced: 2,
+        needTime: 3,
+        needYield: 0,
+        saveState: 0,
+        restoreState: 0,
+        isEOF: 1,
+        sortPattern: {
+          Nombre: 1
+        },
+        memLimit: 104857600,
+        limitAmount: 10,
+        type: 'simple',
+        totalDataSizeSorted: 884,
+        usedDisk: false,
+        spills: 0,
+        spilledRecords: 0,
+        spilledBytes: 0,
+        spilledDataStorageSize: 0,
+        inputStage: {
+          stage: 'FETCH',
+          filter: {
+            Idiomas: {
+              '$eq': 'Inglés'
+            }
+          },
+          nReturned: 2,
+          executionTimeMillisEstimate: 0,
+          works: 3,
+          advanced: 2,
+          needTime: 0,
+          needYield: 0,
+          saveState: 0,
+          restoreState: 0,
+          isEOF: 1,
+          docsExamined: 2,
+          alreadyHasObj: 0,
+          inputStage: {
+            stage: 'IXSCAN',
+            nReturned: 2,
+            executionTimeMillisEstimate: 0,
+            works: 3,
+            advanced: 2,
+            needTime: 0,
+            needYield: 0,
+            saveState: 0,
+            restoreState: 0,
+            isEOF: 1,
+            keyPattern: {
+              Nacionalidad: 1
+            },
+            indexName: 'Nacionalidad_1',
+            isMultiKey: false,
+            multiKeyPaths: {
+              Nacionalidad: []
+            },
+            isUnique: false,
+            isSparse: false,
+            isPartial: false,
+            indexVersion: 2,
+            direction: 'forward',
+            indexBounds: {
+              Nacionalidad: [
+                '["Reino Unido", "Reino Unido"]'
+              ]
+            },
+            keysExamined: 2,
+            seeks: 1,
+            dupsTested: 0,
+            dupsDropped: 0
+          }
+        }
+      }
+    }
+  },
+  queryShapeHash: 'E9F89919FA8E76FAAA490F0399D85ACEDC3685AAB245C2B654261653EBC9D4D8',
+  command: {
+    find: 'Voice-actors',
+    filter: {
+      Idiomas: 'Inglés',
+      Nacionalidad: 'Reino Unido'
+    },
+    sort: {
+      Nombre: 1
+    },
+    projection: {
+      _id: 0,
+      Nombre: 1,
+      Idiomas: 1,
+      Nacionalidad: 1
+    },
+    limit: 10,
+    '$db': 'Actors'
+  },
+  serverInfo: {
+    host: '2d5719434a1b',
+    port: 30001,
+    version: '8.2.12',
+    gitVersion: '0f912e80210b8fdfdcec618b14b6c0fced055cb8'
+  },
+  serverParameters: {
+    internalQueryFacetBufferSizeBytes: 104857600,
+    internalQueryFacetMaxOutputDocSizeBytes: 104857600,
+    internalLookupStageIntermediateDocumentMaxSizeBytes: 104857600,
+    internalDocumentSourceGroupMaxMemoryBytes: 104857600,
+    internalQueryMaxBlockingSortMemoryUsageBytes: 104857600,
+    internalQueryProhibitBlockingMergeOnMongoS: 0,
+    internalQueryMaxAddToSetBytes: 104857600,
+    internalDocumentSourceSetWindowFieldsMaxMemoryBytes: 104857600,
+    internalQueryFrameworkControl: 'trySbeRestricted',
+    internalQueryPlannerIgnoreIndexWithCollationForRegex: 1
+  },
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1788649766, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1788649766, i: 1 })
+}
