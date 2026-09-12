@@ -11,6 +11,9 @@ db["Voice-actors"].find({Idiomas: "Inglés", Nacionalidad: "Reino Unido"}, {_id:
 db["Voice-actors"].find({Edad: {$lt: 30}, Personajes: { $elemMatch: { Rol: "principal", Generos: "Acción"}}}, {_id: 0, Nombre: 1, "Personajes.Rol": 1, "Personajes.Generos": 1, Edad: 1}).sort({Nombre: 1}).limit(10).explain("executionStats")
 db["Voice-actors"].explain("executionStats").aggregate([{$sort: {Patrimonio: -1}}, {$skip: 4}, {$limit:10}, {$project: {Nombre: 1, Patrimonio: 1, Edad: 1}}])
 
+db.getCollection("Voice-actors").createIndex({ Nacionalidad: 1 })
+db.getCollection("Voice-actors").createIndex({ Edad: 1 })
+
 ## Parte3
 db["Voice-actors"].updateMany({Edad: {$lt: 40}}, {
   $push: {Personajes: { NombrePersonaje: "Adagio", Produccion: "Shangrila", TipoProduccion: "profesional", Rol: "principal", CantidadApariciones: 3, Generos: ["Romance"]}},
